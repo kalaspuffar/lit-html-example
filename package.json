@@ -1,0 +1,24 @@
+{
+  "name": "lit-html-example",
+  "version": "1.0.0",
+  "description": "A simple example using lit-html",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kalaspuffar/lit-html-example.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kalaspuffar/lit-html-example/issues"
+  },
+  "homepage": "https://github.com/kalaspuffar/lit-html-example#readme",
+  "dependencies": {
+    "cors": "^2.8.4",
+    "express": "^4.16.3"
+  }
+}
