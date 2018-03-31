@@ -5,8 +5,7 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js",
-    "build": "rimraf public/old && babel public -d public/old"
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -21,10 +20,5 @@
   "dependencies": {
     "cors": "^2.8.4",
     "express": "^4.16.3"
-  },
-  "devDependencies": {
-    "babel-cli": "^6.26.0",
-    "babel-preset-env": "^1.6.1",
-    "rimraf": "^2.6.2"
   }
 }

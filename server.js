@@ -6,6 +6,6 @@ app.use(cors())
 
 app.use(express.static('public'))
 
-app.listen(80, function () {
-  console.log('CORS-enabled web server listening on port 80')
+app.listen(8080, function () {
+  console.log('CORS-enabled web server listening on port 8080')
 })
